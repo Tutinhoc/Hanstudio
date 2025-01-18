@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5DC; /* Màu nền kem sáng */
+    color: #6B4F3C; /* Màu chữ nâu nhạt */
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #6B4F3C; /* Màu nâu nhạt cho tiêu đề */
+}
+.navbar {
+    background-color: #EDE7D5; /* Màu nền navbar sáng hơn */
+}
+.navbar-brand, .nav-link {
+    color: #6B4F3C !important; /* Màu nâu nhạt cho các liên kết */
+}
+footer {
+    background-color: #EDE7D5; /* Màu nền footer sáng */
+    color: #6B4F3C; /* Màu nâu nhạt cho chữ */
+}
+.navbar-toggler-icon {
+    background-color: #A9A9A9; /* Màu xám nhấn cho icon */
+}

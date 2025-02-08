@@ -1,0 +1,104 @@
+/* dich vu */
+.services-section {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+/* tieu de */
+.section-title {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #333, #777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.7s ease-in-out;
+}
+
+.section-title:hover {
+    text-shadow: 0px 4px 10px rgba(0.1, 0, 0.2, 0.2);
+}
+
+/* subtitle */
+
+.section-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+
+/* container */
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    letter-spacing:  0.5px;
+    text-shadow: #bbbbbb;
+    transition: color 0.3s ease-in-out;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* hover */
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* lien he */
+
+.btn-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn-more:hover {
+    background-color: white;
+    color: rgb(65, 78, 63);
+    border: 2px solid #bbbbbb;
+}

@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/blog.css">
   </head>
 
   <body>
@@ -82,14 +84,100 @@
           <div class="row aligh-items-center">
             <!-- hình ảnh minh họa -->
             <div class="col-lg-6">
-              <img
-                src="img/project/introduce/mot.jpg"
-                alt="Hanstudio Design"
-                class="home-image"
-              />
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                style="max-width: 500px"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!-- ảnh chính -->
+                  <div class="carousel-item active">
+                    <img
+                      src="img/project/introduce/mot.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 2 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/chin.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 3 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/ba.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 4 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/bon.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 5 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/nam.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 6 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/sau.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                  <!-- ảnh 7 -->
+                  <div class="carousel-item">
+                    <img
+                      src="img/project/introduce/bay.jpg"
+                      class="d-block w-100 home-image"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
             <!-- nội dung -->
-            <div class="col-lg-6">
+            <div
+              class="col-lg-6 d-flex align-items-center justify-content-center flex-column"
+            >
               <h1 class="home-title">Sự Thanh Lịch Trong Từng Chi Tiết</h1>
               <p class="home-subtitle">
                 Hanstudio mang đến cho bạn những thiết kế vô cùng tinh tế, hiện
@@ -110,46 +198,114 @@
             Chúng tôi cung cấp các giải pháp thiết kế kiến trúc và nội thất gắn
             liền với sự tinh tế, sáng tạo và sang trọng.
           </p>
-          
+
           <div class="row">
             <!-- noithat -->
             <div class="col-md-6 col-lg-4">
-              <div class="servicd-card">
-                <img src="" alt="">
-                <h3></h3>
+              <div class="service-card">
+                <img
+                  src="img/project/services/noithat.jpg"
+                  alt="Thiet ke noi that"
+                />
+                <h3>Thiết Kế Nội Thất</h3>
                 <p>
-
+                  Không gian sang trọng, tối ưu công năng với phong cách độc
+                  đáo.
                 </p>
               </div>
             </div>
             <!-- kientruc -->
             <div class="col-md-6 col-lg-4">
-              <div class="servicd-card">
-                <img src="" alt="">
-                <h3></h3>
+              <div class="service-card">
+                <img
+                  src="img/project/services/kientruc.jpg"
+                  alt="Thiet ke kien truc"
+                />
+                <h3>Thiết Kế Kiến Trúc</h3>
                 <p>
-                  
+                  Định hình phong cách, mang lại sự hài hòa giữa không gian và
+                  con người.
                 </p>
               </div>
             </div>
             <!-- phongthuy -->
             <div class="col-md-6 col-lg-4">
-              <div class="servicd-card">
-                <img src="" alt="">
-                <h3></h3>
+              <div class="service-card">
+                <img
+                  src="img/project/services/phongthuy.jpg"
+                  alt="Tu van phong thuy"
+                />
+                <h3>Tư Vấn Phong Thủy</h3>
                 <p>
-                  
+                  Đảm bảo sự cân bằng và hài hòa trong thiết kế để mang lại may
+                  mắn.
                 </p>
               </div>
             </div>
-            
           </div>
-
+          <a href="#contact" class="btn btn-more">Liên Hệ Ngay</a>
         </div>
       </section>
       <!-- Dự Án -->
       <!-- Giới thiệu -->
       <!-- Blog -->
+      <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="blog-title">Khám Phá Kiến Thức Mới</h2>
+    
+            <!-- Bài viết nổi bật -->
+            <div class="blog-featured">
+                <img src="img/project/blog/highlight.jpg" alt="Bài viết nổi bật" class="blog-featured-image">
+                <div class="blog-featured-content">
+                    <h3>Bí Quyết Thiết Kế Không Gian Đẳng Cấp</h3>
+                    <p>Hãy cùng khám phá những xu hướng thiết kế nội thất sang trọng nhất năm nay.</p>
+                    <a href="blog-highlight.html" class="btn-read-more">Đọc Thêm >></a>
+                </div>
+            </div>
+    
+            <!-- Danh sách bài viết -->
+            <div class="blog-grid">
+              <!-- Hàng 1 -->
+               <div class="blog-row">
+                <article class="blog-card blog-card-large">
+                    <img src="img/project/blog/blog1.jpg" alt="Phong Cách Tối Giản">
+                    <div class="blog-card-content">
+                        <h4>Phong Cách Tối Giản – Sự Tinh Tế Từ Đơn Giản</h4>
+                        <p>Minimalism giúp tối ưu không gian sống và mang lại cảm giác thoải mái.</p>
+                    </div>
+                </article>
+    
+                <article class="blog-card blog-card-small">
+                    <img src="img/project/blog/blog2.jpg" alt="Ứng Dụng AI">
+                    <div class="blog-card-content">
+                        <h4>Ứng Dụng Công Nghệ AI Trong Thiết Kế</h4>
+                        <p>Trí tuệ nhân tạo đang thay đổi cách chúng ta thiết kế và sáng tạo.</p>
+                    </div>
+                </article>
+              </div>
+              <!-- Hàng 2 -->
+              <div class="blog-row">
+
+                <article class="blog-card blog-card-small">
+                    <img src="img/project/blog/blog3.jpg" alt="Thiết Kế Bền Vững">
+                    <div class="blog-card-content">
+                        <h4>Thiết Kế Bền Vững – Xu Hướng Của Tương Lai</h4>
+                        <p>Giải pháp vật liệu thân thiện với môi trường ngày càng được ưa chuộng.</p>
+                    </div>
+                </article>
+    
+                <article class="blog-card blog-card-large">
+                    <img src="img/project/blog/blog4.jpg" alt="Bố Trí Ánh Sáng">
+                    <div class="blog-card-content">
+                        <h4>Mẹo Bố Trí Ánh Sáng Cho Không Gian Hoàn Hảo</h4>
+                        <p>Cách lựa chọn đèn và phối ánh sáng để tạo nên sự sang trọng.</p>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    
       <!-- Feedback -->
       <!-- FAQ -->
       <!-- Liên hệ -->

@@ -6,7 +6,7 @@
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("../img/project/introduce/hai.jpg") no-repeat center center/cover;
-    color: rgb(255, 249, 241);
+    color: white;
     padding: 50px;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,6 @@
 
 /* hình ảnh minh họa */
 .home-image {
-    max-width: 500px;
     width: 100%;
     height: auto;
     border-radius: 15px;
@@ -23,13 +22,22 @@
     animation: fade-in 1.5s ease-in-out;
     object-fit: cover;
 }
+/* carousel */
+.carousel-control-next, .carousel-control-prev {
+    opacity: 0;
+}
+/* carousel hover */
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    opacity: 1;
+    transition: fade-in 5s ease-in-out;
+}
 
 /* Tiêu đề */
 .home-title {
     font-family: "Playfair Display", serif;
     font-size: 40px;
     font-weight: bold;
-    color: rgb(255, 249, 241);
+    color: white;
     animation: slide-in-left 1s ease-in-out;
     margin-bottom: 20px;
     z-index: 2;
@@ -47,8 +55,8 @@
 .btn-discover {
     margin-top: 15px;
     padding: 12px 24px;
-    border: 2px solid rgb(255, 249, 241);
-    color: rgb(255, 249, 241);
+    border: 2px solid white;
+    color: white;
     border-radius: 25px;
     font-weight: bold;
     text-decoration: none;
@@ -60,7 +68,7 @@
 }
 
 .btn-discover:hover {
-    background-color: rgb(255, 249, 241);
+    background-color: white;
     color: rgb(65, 78, 63);
 }
 

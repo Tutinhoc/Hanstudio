@@ -1,0 +1,65 @@
+/* mặc định */
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* logo */
+.logo {
+    height: 50px;
+    width: auto;
+    max-width: 150px;
+}
+
+.logo:hover {
+    border-radius: 20px;
+    border: 1px solid #d3d3d3;
+}
+
+/* menu */
+.navbar-nav .nav-link{
+    font-family: "playfair Display", serif;
+    color: #333333;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+/* hover */
+.navbar-nav .nav-link:hover {
+    color: #9ea36b;
+    font-weight: 900;
+}
+/* item */
+.navbar-nav .nav-item {
+    position: relative; 
+    padding: 0 7px;
+}
+.navbar-nav .nav-item:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+}
+
+.navbar-nav .FAQ::after {
+ content: "" !important;
+}
+
+/* nut lien he */
+.btn-cta {
+    border-radius: 20px;
+    border: 2px solid #9ea36b;
+    color: #9ea36b;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-cta:hover {
+    background: #9ea36b;
+    color: white;
+    font-size: larger;
+}
+

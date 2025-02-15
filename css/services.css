@@ -1,7 +1,7 @@
 /* dich vu */
 .services-section {
     padding: 60px 20px;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    background: #f8f8f8;
 }
 
 /* tieu de */
@@ -9,11 +9,10 @@
     font-size: 36px;
     font-family: "Playfair Display", serif;
     font-weight: bolder;
-    color: #333;
     margin-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #333, #777);
+    background: linear-gradient(90deg, #556b2f, #777);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.7s ease-in-out;

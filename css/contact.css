@@ -1,0 +1,152 @@
+/* Định dạng chung */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bố cục chính */
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+    position: relative;
+}
+
+/* Nội dung blog */
+.blog-container {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form liên hệ */
+.contact-container {
+    flex: 1;
+    width: 200px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: top 0.1s ease-in-out;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #556b2f;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Form nhập liệu */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #8c8c8c;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #556b2f;
+    outline: none;
+    box-shadow: 0 0 10px rgba(85, 107, 47, 0.3);
+}
+
+/* Nút gửi */
+button {
+    background: #556b2f;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6c8c3f;
+}
+
+/* link */
+.social-links {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Định dạng chung cho icon */
+.social-links a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Sử dụng hình ảnh làm icon */
+.social-links a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Hiệu ứng hover */
+.social-links a:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .main-container {
+        flex-direction: column;
+        align-items: last baseline;
+    }
+
+    .contact-container {
+        width: 93%;
+        position: static;
+        margin-top: 20px;
+    }
+}

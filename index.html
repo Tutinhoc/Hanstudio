@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/contacts.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/feedback.css" />
+    <link rel="stylesheet" href="css/about.css" />
   </head>
 
   <body>
@@ -49,13 +56,13 @@
               <a href="#home" class="nav-link">Trang Chủ</a>
             </li>
             <li class="nav-item">
+              <a href="#about" class="nav-link">Giới Thiệu</a>
+            </li>
+            <li class="nav-item">
               <a href="#services" class="nav-link">Dịch Vụ</a>
             </li>
             <li class="nav-item">
               <a href="#projects" class="nav-link">Dự Án</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">Giới Thiệu</a>
             </li>
             <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
             <li class="nav-item">
@@ -82,63 +89,14 @@
           <div class="row aligh-items-center">
             <!-- hình ảnh minh họa -->
             <div class="col-lg-6">
-              <div
-                id="carouselExampleAutoplaying"
-                class="carousel slide"
-                style="max-width: 500px"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="img/project/introduce/mot.jpg"
-                      class="d-block w-100 home-image"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/project/introduce/hai.jpg"
-                      class="d-block w-100 home-image"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="img/project/introduce/ba.jpg"
-                      class="d-block w-100 home-image"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleAutoplaying"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleAutoplaying"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+              <img
+                src="img/project/introduce/mot.jpg"
+                alt="Hanstudio Design"
+                class="home-image"
+              />
             </div>
             <!-- nội dung -->
-            <div class="col-lg-6 d-flex align-items-center justify-content-center flex-column" >
+            <div class="col-lg-6">
               <h1 class="home-title">Sự Thanh Lịch Trong Từng Chi Tiết</h1>
               <p class="home-subtitle">
                 Hanstudio mang đến cho bạn những thiết kế vô cùng tinh tế, hiện
@@ -151,6 +109,39 @@
           </div>
         </div>
       </section>
+      <!-- Giới Thiệu -->
+      <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Infor Hanstudio</h2>
+                    <p><strong>Hanstudio</strong> là doanh nghiệp thiết kế kiến trúc và nội thất hàng đầu tại Pleiku, Gia Lai. 
+                    Chúng tôi chuyên tạo ra những không gian **sang trọng, tinh tế** và tối ưu công năng.</p>
+                    <p>Với hơn **10 năm kinh nghiệm**, Hanstudio cam kết mang đến các thiết kế **độc đáo, hiện đại**, 
+                    kết hợp hài hòa giữa **công nghệ, nghệ thuật và phong thủy**.</p>
+                    <ul>
+                        <li>🏠 <strong>Thiết kế kiến trúc:</strong> Nhà phố, biệt thự, quán cà phê, showroom...</li>
+                        <li>🎨 <strong>Thiết kế nội thất:</strong> Không gian sống đẳng cấp, tối ưu trải nghiệm.</li>
+                        <li>🔨 <strong>Thi công trọn gói:</strong> Đảm bảo chất lượng và tiến độ.</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Liên hệ ngay</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/project/about/CEO.jpg" alt="Nguyễn Ngọc Hân - Nhà sáng lập Hanstudio">
+                    <p class="founder-name"><strong>Nguyễn Ngọc Hân</strong> – Kiến trúc sư, CEO Hanstudio</p>
+                </div>
+            </div>
+            
+            <!-- Google Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.123456789!2d107.9956789!3d13.9754321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef!2sHanstudio!5e0!3m2!1sen!2s!4v1700000000000" 
+                    width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
       <!-- Dịch Vụ -->
       <section id="services" class="services-section">
         <div class="container text-center">
@@ -164,39 +155,314 @@
             <!-- noithat -->
             <div class="col-md-6 col-lg-4">
               <div class="servicd-card">
-                <img src="" alt="" />
+                <img src="" alt="">
                 <h3></h3>
-                <p></p>
+                <p>
+
+                </p>
               </div>
             </div>
             <!-- kientruc -->
             <div class="col-md-6 col-lg-4">
               <div class="servicd-card">
-                <img src="" alt="" />
+                <img src="" alt="">
                 <h3></h3>
-                <p></p>
+                <p>
+                  
+                </p>
               </div>
             </div>
             <!-- phongthuy -->
             <div class="col-md-6 col-lg-4">
               <div class="servicd-card">
-                <img src="" alt="" />
+                <img src="" alt="">
                 <h3></h3>
-                <p></p>
+                <p>
+                  
+                </p>
               </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- Dự Án -->
+      <section id="projects" class="projects container">
+        <h2 class="section-title text-center mb-4">Dự án Tiêu Biểu</h2>
+        <div class="row g-4">
+                <!-- Dự án 1 -->
+                <div class="nail" class="col-md-6 col-lg-6">
+                    <div class="project-item">
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <img src="img/project/project/nail1.jpg" alt="Dự án 1 - Ảnh 1">
+                                <img src="img/project/project/nail5.jpg" alt="Dự án 1 - Ảnh 2">
+                                <img src="img/project/project/nail3.jpg" alt="Dự án 1 - Ảnh 3">
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <h3>Cosmo Nail Spa</h3>
+                            <p>Thiết kế tối giản, không gian mở kết nối thiên nhiên.</p>
+                            <a href="nail.html" class="view-btn">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dự án 2 -->
+                <div class="126cf" class="col-md-6 col-lg-6">
+                    <div class="project-item">
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <img src="img/project/project/cf1261.jpg" alt="Dự án 2 - Ảnh 1">
+                                <img src="img/project/project/cf1262.jpg" alt="Dự án 2 - Ảnh 2">
+                                <img src="img/project/project/cf1263.jpg" alt="Dự án 2 - Ảnh 3">
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <h3>126 Coffee</h3>
+                            <p>Không gian kiến trúc tinh tế, hòa quyện giữa vẻ đẹp hiện đại và nét mộc mạc, mang đến trải nghiệm cà phê đầy cảm hứng.</p>
+                            <a href="cf126.html" class="view-btn">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dự án 3 - Chiếm toàn bộ chiều rộng của hàng -->
+                <div class="nhapho" class="col-12">
+                    <div class="project-item full-width">
+                        <div class="carousel">
+                            <div class="carousel-track">
+                                <img src="img/project/project/nhapho7.jpg" alt="Dự án 3 - Ảnh 1">
+                                <img src="img/project/project/nhapho4.jpg" alt="Dự án 3 - Ảnh 2">
+                                <img src="img/project/project/nhapho8.jpg" alt="Dự án 3 - Ảnh 3">
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <h3>Nhà Phố</h3>
+                            <p>Thiết kế sang trọng, tối ưu công năng, kiến tạo không gian sống đẳng cấp.</p>
+                            <a href="nhapho.html" class="view-btn">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+      <!-- Blog -->
+      <section id="blog" class="blog-section">
+        <div class="container">
+          <h2 class="blog-title">Khám Phá Tri Thức Thiết Kế</h2>
+
+          <!-- Bài viết nổi bật -->
+          <div class="blog-featured">
+            <img
+              src="img/project/blog/pinter.jpg"
+              alt="Bài viết nổi bật"
+              class="blog-featured-image"
+            />
+            <div class="blog-featured-content">
+              <h3>Bí Quyết Thiết Kế Không Gian Đẳng Cấp</h3>
+              <p>
+                Hãy cùng khám phá những xu hướng thiết kế nội thất sang trọng
+                nhất năm nay.
+              </p>
+              <a href="blog-highlight.html" class="btn-read-more"
+                >Đọc Thêm >></a
+              >
+            </div>
+          </div>
+
+          <!-- Danh sách bài viết -->
+          <div class="blog-grid">
+            <!-- Hàng 1 -->
+            <div class="blog-row">
+              <article class="blog-card blog-card-large">
+                <img
+                  src="img/project/blog/toigian.webp"
+                  alt="Phong Cách Tối Giản"
+                />
+                <div class="blog-card-content">
+                  <h4>Phong Cách Tối Giản – Sự Tinh Tế Từ Đơn Giản</h4>
+                  <p>
+                    Minimalism giúp tối ưu không gian sống và mang lại cảm giác
+                    thoải mái.
+                  </p>
+                </div>
+              </article>
+
+              <article class="blog-card blog-card-small">
+                <img
+                  src="img/project/blog/A_stylish_and_modern_living_room_interior_design_w.jpg"
+                  alt="Ứng Dụng AI"
+                />
+                <div class="blog-card-content">
+                  <h4>Ứng Dụng Công Nghệ AI Trong Thiết Kế</h4>
+                  <p>
+                    Trí tuệ nhân tạo đang thay đổi cách chúng ta thiết kế và
+                    sáng tạo.
+                  </p>
+                </div>
+              </article>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="blog-row">
+              <article class="blog-card blog-card-small">
+                <img
+                  src="img/project/blog/thiennhien.webp"
+                  alt="Thiết Kế Bền Vững"
+                />
+                <div class="blog-card-content">
+                  <h4>Thiết Kế Bền Vững – Xu Hướng Của Tương Lai</h4>
+                  <p>
+                    Giải pháp vật liệu thân thiện với môi trường ngày càng được
+                    ưa chuộng.
+                  </p>
+                </div>
+              </article>
+
+              <article class="blog-card blog-card-large">
+                <img
+                  src="img/project/blog/anhsang.webp"
+                  alt="Bố Trí Ánh Sáng"
+                />
+                <div class="blog-card-content">
+                  <h4>Mẹo Bố Trí Ánh Sáng Cho Không Gian Hoàn Hảo</h4>
+                  <p>
+                    Cách lựa chọn đèn và phối ánh sáng để tạo nên sự sang trọng.
+                  </p>
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </section>
-      <!-- Dự Án -->
-      <!-- Giới thiệu -->
-      <!-- Blog -->
+
       <!-- Feedback -->
+      <section id="feedback" class="feedback-section">
+        <h2 class="section-title">Khách Hàng Nói Gì Về Chúng Tôi?</h2>
+        <div class="feedback-slider">
+          <div class="feedback-item">
+            <img src="img/project/feedback/man2.jpg" alt="Khách hàng 1">
+            <p class="feedback-text">"Hanstudio thực sự đã biến ý tưởng của chúng tôi thành hiện thực. Không gian quán cà phê mà họ thiết kế không chỉ đẹp mà còn rất có chiều sâu, hài hòa với thiên nhiên. Rất hài lòng!"</p>
+            <h4 class="customer-name">Bạn Nguyễn Quốc Huy – Chủ quán 126 Coffee</h4>
+        </div>
+        
+        <div class="feedback-item">
+            <img src="img/project/feedback/nu1.jpg" alt="Khách hàng 2">
+            <p class="feedback-text">"Tôi rất ấn tượng với cách Hanstudio tư vấn và triển khai thiết kế. Tiệm nail của tôi không chỉ sang trọng mà còn cực kỳ thoải mái, thu hút khách hàng ngay từ ánh nhìn đầu tiên."</p>
+            <h4 class="customer-name">Chị Phạm Thanh Hương – Chủ Cosmo Nail Spa</h4>
+        </div>
+        
+        <div class="feedback-item">
+            <img src="img/project/feedback/man1.jpg" alt="Khách hàng 3">
+            <p class="feedback-text">"Hanstudio không chỉ tạo nên một ngôi nhà đẹp mà còn giúp tôi có một không gian sống thực sự tiện nghi và tinh tế. Cách họ kết hợp ánh sáng và vật liệu khiến tôi hoàn toàn hài lòng."</p>
+            <h4 class="customer-name">Anh Lê Văn An – Dự án nhà phố</h4>
+        </div>
+        </div>
+    </section>
       <!-- FAQ -->
+
       <!-- Liên hệ -->
+      <!-- Form liên hệ (fixed bên cạnh) -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="contact-title">Liên hệ với chúng tôi</h2>
+          <p class="contact-description">
+            Hãy để lại thông tin, chúng tôi sẽ liên hệ lại sớm nhất có thể.
+          </p>
+
+          <form class="contact-form" action="submit_form.php" method="POST">
+            <div class="form-group">
+              <label for="contact-name">Họ và Tên</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="contact-name"
+                required
+                placeholder="Nhập họ và tên"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="contact-email"
+                required
+                placeholder="Nhập địa chỉ email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Nội dung</label>
+              <textarea
+                id="contact-message"
+                name="contact-message"
+                rows="5"
+                required
+                placeholder="Nhập nội dung liên hệ"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Gửi yêu cầu</button>
+          </form>
+        </div>
+      </section>
+      <!-- link -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="img/project/contact/fbicon.png" alt="Facebook" />
+        </a>
+        <a href="tel:0123456789">
+          <img
+            title="Call Hotline"
+            src="https://gacmai.vn/wp-content/uploads/2024/07/call-icon.png"
+            alt="phone-icon"
+            width="40"
+            height="40"
+          />
+        </a>
+        <a href="https://zalo.me/" target="_blank">
+          <img src="img/project/contact/zaloicon.png" alt="Zalo" />
+        </a>
+      </div>
+      <!-- endcontact -->
     </div>
 
     <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h3>Hanstudio</h3>
+          <p>Cam kết sáng tạo & phát triển bền vững.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Liên kết</h4>
+          <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#services">Dịch Vụ</a></li>
+            <li><a href="#projects">Dự Án</a></li>
+
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Liên hệ</h4>
+          <p>Email: Hanstudio@gmail.com</p>
+          <p>Hotline: 0123 456 789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hanstudio. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="projects.js"></script>
+    <script src="../js/manage_contact"></script>
+    <script src="../Hanstudio/js/contact"></script>
+
 
     <!--Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

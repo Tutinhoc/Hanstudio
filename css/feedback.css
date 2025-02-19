@@ -1,0 +1,75 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400&display=swap');
+
+/* Định dạng chung */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Tiêu đề */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 40px 0;
+    color: #6e4b3b;
+}
+
+/* Phần feedback */
+.feedback-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Slider feedback */
+.feedback-slider {
+    display: flex;
+    overflow: hidden;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mỗi feedback */
+.feedback-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feedback-item:hover {
+    transform: scale(1.05);
+}
+
+/* Ảnh khách hàng */
+.feedback-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #6e4b3b;
+}
+
+/* Nội dung feedback */
+.feedback-text {
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Tên khách hàng */
+.customer-name {
+    font-size: 23px;
+    font-weight: bold;
+    color: #6e4b3b;
+}

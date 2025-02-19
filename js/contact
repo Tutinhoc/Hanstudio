@@ -1,0 +1,39 @@
+// Lay thong tin nguoi dung nhap vao form
+function validateform(email, contact_name) {
+    // Kiem tra rong
+    
+    if (email == "" || contact_name == "") {
+        alert("You must fill all necessary information!");
+        return false;
+    }
+    
+    // kiem tra format email
+    const email_regex =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    if (email_regex.test(email == false)) {
+        alert("Email is bad format");
+        return false;
+    }
+    return true;
+    }
+    
+    
+    // Luu vao local storage 
+    function contactform() {
+        // lay du lieu tu form html
+        // [HTML dom]: moi tag trong html </> duoc goi la element
+        // document: Lay toan bo code trong file HTML da duoc lien ket (thong qua tag script))
+        // getElementById: Lay tag html thong qua thuoc tinh id (vd: <input id="a"/>)
+        const email = document.getElementById("contact-email").value.trim();
+        const name = document.getElementById("contact-name").value.trim();
+        const message = document.getElementById("contact-message").value.trim();
+    
+        // kiem tra form
+        if (validateform(email, name)) {
+             
+    
+        } else return;
+    }
+    // bat su kien cho button login
+    document.getElementById("btn-submit").addEventListener("click", funtion (event)) {
+    
+    }

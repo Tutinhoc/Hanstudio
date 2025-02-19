@@ -1,6 +1,6 @@
 /* mặc định */
 .home-section {
-    height: 800px;
+    height: 777px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -37,7 +37,7 @@
     font-family: "Playfair Display", serif;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: #fff;
     animation: slide-in-left 1s ease-in-out;
     margin-bottom: 20px;
     z-index: 2;
@@ -90,5 +90,46 @@
     }
     to {
         opacity: 1;
+    }
+}
+@media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center; /* Căn giữa tất cả phần tử trong row */
+        text-align: center;
+    }
+
+    .col-lg-6 {
+        width: 100%;
+    }
+
+    .carousel {
+        max-width: 100%;
+        width: 80%; /* Đảm bảo không quá rộng */
+        margin: 0 auto; /* Căn giữa */
+    }
+
+    .home-title {
+        font-size: 36px;
+    }
+
+    .home-subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .btn-discover {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 50%; /* Hai phần bằng nhau */
+    }
+
+    .carousel {
+        max-width: 420px;
     }
 }

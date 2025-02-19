@@ -32,6 +32,10 @@
     transition: fade-in 1s ease-in-out;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    opacity: 0;
+}
+
 /* Tiêu đề */
 .home-title {
     font-family: "Playfair Display", serif;

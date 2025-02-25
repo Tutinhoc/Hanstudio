@@ -128,7 +128,7 @@
         padding: 10px 20px;
     }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .col-lg-6 {
         width: 50%; /* Hai phần bằng nhau */
     }
@@ -136,4 +136,4 @@
     .carousel {
         max-width: 420px;
     }
-}
+} */

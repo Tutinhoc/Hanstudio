@@ -9,8 +9,8 @@ function validateform(email, contact_name, message) {
 
   // kiem tra format email
   const email_regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-  if (email_regex.test(email == false)) {
-    alert("Email is bad format");
+  if (!email_regex.test(email)) {
+    alert("Email is bad format!");
     return false;
   }
   if (message.length < 15) {

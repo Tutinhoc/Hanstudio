@@ -1,132 +1,221 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thiết Kế Nội Thất Nail Spa - Hanstudio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- link icon -->
     <link
       rel="shortcut icon"
       href="../img/favicon/logo_icon_Hanstudio.jpg"
       type="image/x-icon"
     />
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/contacts.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/projects/nail.css" />
-</head>
-<body>
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-      <!-- logo -->
-      <a href="../index.html#" class="navbar-brand">
-        <img
-          src="../img/favicon/logo_icon_Hanstudio.jpg"
-          alt="logo Hanstudio"
-          class="logo"
-        />
-      </a>
-      <!-- toggle button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- menu -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="../index.html#home" class="nav-link">Trang Chủ</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index.html#about" class="nav-link">Giới Thiệu</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index.html#services" class="nav-link">Dịch Vụ</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index.html#projects" class="nav-link">Dự Án</a>
-          </li>
-          <li class="nav-item"><a href="../index.html#blog" class="nav-link">Blog</a></li>
-          <li class="nav-item">
-            <a href="../index.html#feedback" class="nav-link">Feedback</a>
-          </li>
-          <li class="nav-item FAQ">
-            <a href="../index.html#FAQ" class="nav-link">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index.html#contact" class="btn btn-outline-dark btn-cta ms-2"
-              >Liên Hệ</a
-            >
-          </li>
-        </ul>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <!-- logo -->
+        <a href="#" class="navbar-brand">
+          <img
+            src="../img/favicon/logo_icon_Hanstudio.jpg"
+            alt="logo Hanstudio"
+            class="logo"
+          />
+        </a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="../index.html#home" class="nav-link">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#about" class="nav-link">Giới Thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#services" class="nav-link">Dịch Vụ</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#projects" class="nav-link">Dự Án</a>
+            </li>
+            <li class="nav-item"><a href="../index.html#blog" class="nav-link">Blog</a></li>
+            <li class="nav-item">
+              <a href="../index.html#feedback" class="nav-link">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html#contact" class="btn btn-outline-dark btn-cta ms-2"
+                >Liên Hệ</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- Body -->
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+      <h2>Thiết Kế Nội Thất Nail Spa</h2>
+      <p>Không gian sang trọng, tinh tế và tối ưu công năng.</p>
+  </div>
+</section>
+
+<!-- Giới thiệu -->
+<section id="about" class="about container">
+  <h2>Giới Thiệu Dự Án</h2>
+  <p>Dự án thiết kế nội thất Nail Spa của Hanstudio hướng đến sự <strong>đơn giản nhưng tinh tế</strong>, kết hợp giữa <strong>gỗ, kính và ánh sáng</strong> để tạo ra không gian thư giãn tối ưu.</p>
+</section>
+
+<!-- Thư viện ảnh -->
+<section id="gallery" class="gallery container">
+  <h2>Hình Ảnh Dự Án</h2>
+  <div class="image-grid">
+      <img src="../img/project/project/nail1.jpg" alt="Hình ảnh 1">
+      <img src="../img/project/project/nail6.jpg" alt="Hình ảnh 2">
+      <img src="../img/project/project/nail3.jpg" alt="Hình ảnh 3">
+  </div>
+</section>
+
+<!-- Điểm nổi bật -->
+<section id="features" class="features container">
+  <h2>Đặc Điểm Thiết Kế</h2>
+  <ul>
+      <li>🌿 <strong>Không gian mở,</strong> tận dụng ánh sáng tự nhiên.</li>
+      <li>🎨 Tông màu <strong>trắng - be - nâu gỗ,</strong> sang trọng.</li>
+      <li>🛋 Nội thất <strong>tối giản nhưng tinh tế,</strong> tạo cảm giác thư giãn.</li>
+      <li>💡 Hệ thống đèn <strong>LED vàng nhẹ,</strong> tạo không khí ấm áp.</li>
+  </ul>
+</section>
+
+      <!-- Liên hệ -->
+      <!-- Form liên hệ (fixed bên cạnh) -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="contact-title">Liên hệ với chúng tôi</h2>
+          <p class="contact-description">
+            Hãy để lại thông tin, chúng tôi sẽ liên hệ lại sớm nhất có thể.
+          </p>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Họ và Tên</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="contact-name"
+                required
+                placeholder="Nhập họ và tên"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="contact-email"
+                required
+                placeholder="Nhập địa chỉ email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Nội dung</label>
+              <textarea
+                id="contact-message"
+                name="contact-message"
+                rows="5"
+                required
+                placeholder="Nhập nội dung liên hệ"
+              ></textarea>
+            </div>
+
+            <button type="submit" id="contact_submit_btn" class="btn-submit">
+              Gửi yêu cầu
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- link -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="../img/project/contact/fbicon.png" alt="Facebook" />
+        </a>
+        <a href="tel:0123456789">
+          <img
+            title="Call Hotline"
+            src="https://gacmai.vn/wp-content/uploads/2024/07/call-icon.png"
+            alt="phone-icon"
+            width="40"
+            height="40"
+          />
+        </a>
+        <a href="https://zalo.me/" target="_blank">
+          <img src="../img/project/contact/zaloicon.png" alt="Zalo" />
+        </a>
+      </div>
+      <!-- endcontact -->
     </div>
-  </nav>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Hanstudio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">Giới thiệu</a></li>
-                    <li><a href="#gallery">Hình ảnh</a></li>
-                    <li><a href="#features">Đặc điểm</a></li>
-                    <li><a href="#contact">Liên hệ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hero -->
-    <section class="hero">
-        <div class="container">
-            <h2>Thiết Kế Nội Thất Nail Spa</h2>
-            <p>Không gian sang trọng, tinh tế và tối ưu công năng.</p>
-        </div>
-    </section>
-
-    <!-- Giới thiệu -->
-    <section id="about" class="about container">
-        <h2>Giới Thiệu Dự Án</h2>
-        <p>Dự án thiết kế nội thất Nail Spa của Hanstudio hướng đến sự **đơn giản nhưng tinh tế**, kết hợp giữa **gỗ, kính và ánh sáng** để tạo ra không gian thư giãn tối ưu.</p>
-    </section>
-
-    <!-- Thư viện ảnh -->
-    <section id="gallery" class="gallery container">
-        <h2>Hình Ảnh Dự Án</h2>
-        <div class="image-grid">
-            <img src="../img/project/project/nail1.jpg" alt="Hình ảnh 1">
-            <img src="../img/project/project/nail3.jpg" alt="Hình ảnh 2">
-            <img src="../img/project/project/nail6.jpg" alt="Hình ảnh 3">
-        </div>
-    </section>
-
-    <!-- Điểm nổi bật -->
-    <section id="features" class="features container">
-        <h2>Đặc Điểm Thiết Kế</h2>
-        <ul>
-            <li>🌿 **Không gian mở**, tận dụng ánh sáng tự nhiên.</li>
-            <li>🎨 Tông màu **trắng - be - nâu gỗ**, sang trọng.</li>
-            <li>🛋 Nội thất **tối giản nhưng tinh tế**, tạo cảm giác thư giãn.</li>
-            <li>💡 Hệ thống đèn **LED vàng nhẹ**, tạo không khí ấm áp.</li>
-        </ul>
-    </section>
-
-    <!-- Liên hệ -->
-    <section id="contact" class="contact container">
-        <h2>Liên Hệ</h2>
-        <p>Liên hệ ngay để nhận tư vấn thiết kế chuyên sâu cho cửa hàng Nail Spa của bạn.</p>
-        <a href="mailto:contact@hanstudio.com" class="btn">Gửi Email</a>
-    </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Hanstudio. Thiết Kế Nội Thất Chuyên Nghiệp.</p>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h3>Hanstudio</h3>
+          <p>Cam kết sáng tạo & phát triển bền vững.</p>
         </div>
+        <div class="footer-links">
+          <h4>Liên kết</h4>
+          <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#services">Dịch Vụ</a></li>
+            <li><a href="#projects">Dự Án</a></li>
+
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Liên hệ</h4>
+          <p>Email: Hanstudio@gmail.com</p>
+          <p>Hotline: 0123 456 789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hanstudio. All Rights Reserved.</p>
+      </div>
     </footer>
 
-</body>
+    <!--Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!-- my script -->
+    <script src="./js/projects.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
 </html>

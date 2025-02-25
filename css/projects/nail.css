@@ -1,128 +1,98 @@
-/* Cấu hình chung */
+/* ======== Thiết lập chung ======== */
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8;
     color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
 
-/* Container */
 .container {
-    width: 90%;
     max-width: 1200px;
     margin: auto;
-}
-
-/* Header */
-header {
-    background: #6e4b3b;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Hero */
-.hero {
-    background: url('nail1.jpg') no-repeat center/cover;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    justify-content: center;
     padding: 20px;
-}
-
-.hero h2 {
-    font-size: 32px;
-}
-
-/* Các phần nội dung */
-section {
-    padding: 50px 0;
-    text-align: center;
+    overflow: hidden;
 }
 
 h2 {
-    font-size: 26px;
-    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #6e4b3b;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-/* Thư viện ảnh */
-.image-grid {
+/* ======== Hero Section ======== */
+.hero {
+    position: relative;
+    background: url('/img/project/project/nail9.jpg') center/cover no-repeat;
+    height: 300px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 15px;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* Thay thế top, left, width, height */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+}
+
+.hero h2,
+.hero p {
+    position: relative;
+    z-index: 1;
+}
+
+/* ======== Giới thiệu ======== */
+.about {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* ======== Thư viện ảnh ======== */
+.gallery {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
-.image-grid img {
+.gallery img {
     width: 30%;
-    border-radius: 8px;
-    transition: 0.3s;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.image-grid img:hover {
+.gallery img:hover {
     transform: scale(1.05);
 }
 
-/* Điểm nổi bật */
+/* ======== Điểm nổi bật ======== */
 .features ul {
     list-style: none;
     padding: 0;
-    text-align: left;
-    max-width: 600px;
-    margin: auto;
 }
 
 .features li {
+    font-size: 20px;
     background: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Liên hệ */
-.contact .btn {
-    display: inline-block;
-    background: #8c8c8c;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-/* Footer */
-footer {
-    background: #8c8c8c;
-    color: white;
+    margin: 8px 0;
     padding: 15px;
-    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
